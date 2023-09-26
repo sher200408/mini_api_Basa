@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 100%;
+    background-color: aqua;
+} */
+
+body{
+    background-image: url(https://i.pinimg.com/originals/82/2f/3a/822f3a45f7b17698edbec54cdf4b85d6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roww{
+    margin-top:90px;
+}
+
+form{
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 217, 0, 0.175);
+    text-align: center;
+    padding-top:30px ;
+    margin: 0 auto;
+    box-shadow: 0 0 13px 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+input{
+    margin-top: 25px;
+    padding:10px;
+    box-shadow: 0 0 12px 3px #ffffff6d;
+    background-color: #0607065f;
+}
+select {
+    margin-top: 15px;
+    padding: 5px 7px 5px 7px;
+    box-shadow: 0 0 10px 5px;
+    background-color: #06070614;
+    color: rgba(240, 248, 255, 0.519);
+}
+button{
+    margin: 15px; 
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 12px 6px ;
+    border-radius: 25px;
+}
+button:hover{
+    color: #ffffff8e;
+    background-color: rgba(0, 0, 0, 0.522);
+    transform:translateY(-3px) ;
+    transition:all 1s ease-in-out ;
+}
+input:hover{
+    color: #060706f0;
+    background-color: rgba(0, 0, 0, 0.338);
+    transform:translateY(-3px) ;
+    transition:all 1s ease-in-out ;
+}
+
+table{
+
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+td{
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+.row {
+    height: 50px;
+    background-color: #0000004c;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    width: 100px;
+    
+}
+li, a{
+    margin-top: 8px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none; 
+    padding: 5px;
+    color: #fff;
+}
+li a:hover{
+    color: rgb(10, 250, 10);
+    transition: all 1s ease-in-out;
+}
+
+@media all and (max-width:500px) {
+
+    body{
+        width: 100%;
+        height: 830px  ;
+        background-image: url(https://i.pinimg.com/originals/b5/5e/3b/b55e3bafe484a0ead34d5e3849bd1e11.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .row {
+        height: 50px;
+        background-color: #b9b9b94c;
+        display: flex;
+        justify-content:center;
+        
+    }
+    .row h1 {
+        position:relative;
+        right: 50px;
+        color: #fff;
+    }
+    ul{
+        display: flex;
+        width: 100px;
+        
+    }
+    li, a{
+        margin-top: 8px;
+        font-size: 20px;
+        list-style: none;
+        text-decoration: none; 
+        padding: 5px;
+        color: #fff;
+    }
+    li a:hover{
+        color: rgb(10, 250, 10);
+        transition: all 1s ease-in-out;
+    }
+    
+    .roww{
+        margin-top:90px;
+    }
+    
+    form{
+        width: 300px;
+        height: 650px;
+        background-color: rgba(255, 217, 0, 0.175);
+        text-align: center;
+        padding-top: 25px ;
+        margin: 0 auto;
+        box-shadow: 0 0 13px 5px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    input{
+        margin-top: 50px;
+        padding:10px;
+        box-shadow: 0 0 12px 3px #ffffff6d;
+        background-color: #0607065f;
+    }
+    select {
+        margin-top: 45px;
+        padding: 7px 7px 7px 7px;
+        box-shadow: 0 0 10px 5px;
+        background-color: #06070614;
+        color: rgba(240, 248, 255, 0.519);
+    }
+    option{
+        color: #000;
+        background-color: rgba(4, 134, 247, 0.003);
+    }
+    button{
+        margin: 10px; 
+        margin-top: 25px;
+        padding: 10px 20px 10px 20px;
+        box-shadow: 0 0 12px 6px ;
+        border-radius: 25px;
+    }
+    button:hover{
+        color: #ffffff8e;
+        background-color: rgba(0, 0, 0, 0.522);
+        transform:translateY(-3px) ;
+        transition:all 1s ease-in-out ;
+    }
+    input:hover{
+        color: #060706f0;
+        background-color: rgba(0, 0, 0, 0.338);
+        transform:translateY(-3px) ;
+        transition:all 1s ease-in-out ;
+    }
+    
+
+
+    thead{
+        display: none;
+    }
+
+    table{
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+
+td{
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid #f4f3f3;
+    display: flex;
+    flex-wrap:wrap;
+    color: #fff;
+
+}
+}
